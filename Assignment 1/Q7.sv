@@ -1,4 +1,4 @@
-module q7;
+module Q7;
   
   int j[];
   int q[$];
@@ -33,6 +33,9 @@ module q7;
     
     q.rsort();
     $display(" q rsort = %p " , q);
+
+     q.sort();
+    $display(" q sort = %p " , q);
     
     q.shuffle();
     $display(" q shuffle = %p " , q);
