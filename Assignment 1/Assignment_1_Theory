@@ -1,0 +1,7 @@
+ASSIGNMENT 1
+ANSWERS
+
+3.(foreach) checks the size of the array before it works,so removing elements inside the array may cause error.
+
+4.If a enum variable is in last one means and then you call the next() , it will wrap around and again it comes to the first value.
+
