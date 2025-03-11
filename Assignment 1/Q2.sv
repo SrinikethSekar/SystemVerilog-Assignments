@@ -1,4 +1,4 @@
-module qinq;
+module Q2;
   
   int q1[$];
   int q2[$];
@@ -17,6 +17,14 @@ module qinq;
     
     foreach(q2[i]) begin
       q1.push_back(q2[i]);
+
+    end
+    
+    $display( "q1 = %p" , q1 );
+
+     foreach(q2[i]) begin
+      q1.push_front(q2[i]);
+      
     end
     
     $display( "q1 = %p" , q1 );
