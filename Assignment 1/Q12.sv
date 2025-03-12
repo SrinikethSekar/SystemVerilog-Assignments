@@ -21,3 +21,14 @@ module Q12;
         end
     end
 endmodule
+
+// # Using for loop:
+// # my_array[0][5:4] = 01
+// # my_array[1][5:4] = 00
+// # my_array[2][5:4] = 11
+// # my_array[3][5:4] = 10
+// # Using foreach loop:
+// # my_array[0][5:4] = 01
+// # my_array[1][5:4] = 00
+// # my_array[2][5:4] = 11
+// # my_array[3][5:4] = 10
