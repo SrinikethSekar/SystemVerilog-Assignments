@@ -5,3 +5,15 @@ ANSWERS
 
 4.If a enum variable is in last one means and then you call the next() , it will wrap around and again it comes to the first value.
 
+11. 1)legal-it is in valid range.
+	2)illegal-tries to acces the non-existing element.
+	3)legal-fills the entire row.
+
+13. 1)the range of values of my_byte is -127 to 127
+	2)the value of my_int is 32'b0FXX_ZZZZ
+	3)the value of my_bit in decimal is 32768
+	4)the value of my_short_int1 in decimal is -32768
+	5)the value of my_short_int2 in decimal is 32767
+
+
+
