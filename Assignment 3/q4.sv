@@ -2,7 +2,6 @@ class packet;
   rand bit [3:0] addr;
   constraint addr_range { soft addr > 6; }
 endclass
-
 module soft_constr;
   initial begin
     packet pkt;
