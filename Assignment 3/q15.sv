@@ -1,5 +1,4 @@
 //Inside the class two random variables are there A & B that A should be greater than B externally you have to write a condition for this
-
 class parent;
 
 	rand bit [3:0]a,b;
